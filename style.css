@@ -21,7 +21,6 @@ h3 {
 h1 {
   text-align: center;
   color: rgb(233, 233, 220);
-  margin: 0;
 }
 
 nav {
@@ -44,13 +43,13 @@ nav {
 }
 
 .m-titulo {
-  margin-top: 65px;
+  margin-top: 50px;
 }
 
 .navbar {
   width: 80%;
-  margin-left: 230px;
-  margin-top: 70px;
+  margin-left: 380px;
+  margin-top: 30px;
 }
 
 li {
@@ -149,5 +148,39 @@ text-align: center;
 
 section{
   text-align: center;
+}
+
+.container-chat {
+  margin-top: 50px;
+}
+
+#carouselExampleFade {
+  margin-top: 20px; 
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: 30%  auto ;
+  grid-template-rows: 400px 400px 400px;
+
+  width: 100%;
+  
+  margin: 0 auto;
+  background-color: antiquewhite;
+  padding: 20px;
+  border: 1px solid black;
+  gap: 5px;
+  
+}
+
+.caja {
+  border: solid 4px burlywood;
+  font-size: 29px;
+  
+}
+
+.caja img {
+  max-width: 100%;
+  height: 392px;
 }
 
