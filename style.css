@@ -46,13 +46,13 @@ nav {
   margin-top: 50px;
 }
 
-.navbar {
+.nav-bar-index {
   width: 80%;
-  margin-left: 380px;
-  margin-top: 30px;
+  margin-left: 350px;
+  margin-top: 80px;
 }
 
-li {
+.lista-navbar {
   color: rgb(233, 233, 220);
   list-style: none;
 }
@@ -76,6 +76,10 @@ background-color: #b99257;
 .foto-empresa {
   margin-top: 50px;
   display: flex;
+}
+
+.imagen-empresa{
+  width: 600px;
 }
 
 .empresa-parrafo {
@@ -158,6 +162,15 @@ section{
   margin-top: 20px; 
 }
 
+.img-fluid{
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  height: 600px !important;
+
+ 
+}
+
 .grid-layout {
   display: grid;
   grid-template-columns: 30%  auto ;
@@ -182,5 +195,44 @@ section{
 .caja img {
   max-width: 100%;
   height: 392px;
+}
+
+.menu-hamburguesa {
+  display: none;
+}
+
+
+
+@media (max-width: 768px) {
+.menu-hamburguesa {display: block;}
+
+.nav-bar-index {display: none;}
+
+
+.foto-empresa{
+  display: inline;
+}
+
+.imagen-empresa{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 50px;
+}
+
+.video {
+  display:inline;
+}
+
+iframe{
+  width: auto;
+}
+
+.texto-video{
+  font-size: 12px;
+  width: auto;
+  text-align: center;
+}
+
 }
 

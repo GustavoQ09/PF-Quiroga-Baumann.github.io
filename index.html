@@ -25,7 +25,7 @@
         </div>
       <div class="bg-nav">
         <div class="logo-título">
-          <img
+          <img class="imagen-logo"
             src="./IMG/img-sueltas/1659f489-6649-40df-9d83-41763f5232d1-removebg-preview.png"
             width="200"
             height="auto"
@@ -40,9 +40,9 @@
           </h1>
         </div>
 
-        <nav class="navbar inline">
+        <nav class="nav-bar-index inline">
           <ul>
-          <li>
+          <li class="lista-navbar">
             <a class="boton-nav" href="./index.html">INICIO</a>
             <a class="boton-nav" href="./Equipo.html">EQUIPO</a>
             <a class="boton-nav" href="./Productos.html">PRODUCTOS</a>
@@ -51,8 +51,33 @@
           </li>
         </ul>
         </nav>
-      </div>
+
+        
     </header>
+    <div class="menu-hamburguesa">
+      <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+        <div class="bg-warning bg-opacity-25 p-4">
+          <span class="text-body-secondary">
+            <ul>
+              <li>
+                <a  href="./index.html">INICIO</a>
+                <a  href="./Equipo.html">EQUIPO</a>
+                <a  href="./Productos.html">PRODUCTOS</a>
+                <a  href="./Preguntas-frecuentes.html">PREGUNTAS FRECUENTES</a>
+                <a  href="./Contacto.html">CONTACTO</a>
+              </li>
+            </ul>
+          </span>
+        </div>
+      </div>
+      <nav class="navbar navbar-dark bg-warning bg-opacity-25">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+    </div>
 <main>
   <div id="carouselExampleFade" class="carousel slide carousel-fade">
     <div class="carousel-inner">
@@ -61,12 +86,6 @@
           <div class="col">
             <img src="./IMG/productos/10460848_734232693334661_3199729164735078002_o.webp" class="img-fluid" alt="Producto casa en index">
           </div>
-          <div class="col">
-            <img src="./IMG/productos/screen-4.webp" class="img-fluid" alt="Producto casa en index">
-          </div>
-          <div class="col">
-            <img src="./IMG/imgs-carousel/c42f6d11f7517dfb54dd2efa03056737 (1).jpg" class="img-fluid" alt="Producto casa en index">
-          </div>
         </div>
       </div>
       <div class="carousel-item">
@@ -74,24 +93,12 @@
           <div class="col">
             <img src="./IMG/imgs-carousel/fresadora-router-trompo-manual-i.webp" class="img-fluid" alt="Producto casa en index">
           </div>
-          <div class="col">
-            <img src="./IMG/imgs-carousel/D_NQ_NP_721527-MLU52005990584_10.webp" class="img-fluid" alt="Producto casa en index">
-          </div>
-          <div class="col">
-            <img src="./IMG/imgs-carousel/tablero-organizador-nappo-nhc-11.webp" class="img-fluid" alt="Producto casa en index">
-          </div>
         </div>
       </div>
       <div class="carousel-item">
         <div class="row">
           <div class="col">
             <img src="./IMG/imgs-carousel/como_elegir_una_caseta_para_mi_p.jpg" class="img-fluid" alt="Producto casa en index">
-          </div>
-          <div class="col">
-            <img src="./IMG/imgs-carousel/D_NQ_NP_853685-MLU46206927456_05.webp" class="img-fluid" alt="Producto casa en index">
-          </div>
-          <div class="col">
-            <img src="./IMG/imgs-carousel/D_NQ_NP_741400-MLU43350195364_09.webp" class="img-fluid" alt="Producto casa en index">
           </div>
         </div>
       </div>
@@ -108,10 +115,9 @@
 
     <div class="foto-empresa">
       <div>
-        <img
+        <img class="imagen-empresa"
           src="./IMG/img-sueltas/700x400_Tutaller2_2022.jpg"
           alt="foto-la-empresa"
-          width="600"
         />
       </div>
 
