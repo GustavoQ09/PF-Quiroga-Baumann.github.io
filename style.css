@@ -37,7 +37,6 @@ nav {
   height: 200px;
   width: 100%;
   top: 1;
-
   background-color: #fff;
   display: flex;
 }
@@ -58,7 +57,6 @@ nav {
 }
 
 .boton-nav {
- 
   background-color: rgba(0, 0, 0, 0.402);
   color: rgb(233, 233, 220);
   padding: 8px;
@@ -132,8 +130,7 @@ text-align: center;
   display: flex;
   gap: 50px;
   justify-content: space-evenly;
-  ;
-
+  
 }
 
 .flex-container .flex-item{
@@ -170,39 +167,33 @@ section{
   margin-right: 15%;
   height: 600px !important;
 
- 
 }
 
 .grid-layout {
   display: grid;
   grid-template-columns: 30%  auto ;
   grid-template-rows: 400px 400px 400px;
-
   width: 100%;
-  
   margin: 0 auto;
   background-color: antiquewhite;
   padding: 20px;
   border: 1px solid black;
   gap: 5px;
-  
 }
 
 .caja {
-  border: solid 4px burlywood;
+  border-style: double;
   font-size: 29px;
-  
 }
 
 .caja img {
   max-width: 100%;
-  height: 392px;
+  height: 50%;
 }
 
 .menu-hamburguesa {
   display: none;
 }
-
 
 
 @media (max-width: 768px) {
@@ -252,7 +243,6 @@ iframe{
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 20px;
-  
 }
 
 .img-fluid {
@@ -260,46 +250,50 @@ iframe{
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
-
 }
 
 .li-hamburguesa {
  font-size: 23px;
  list-style: none;
+ display: inline;
+}
 
+.boton-menu-hamburguesa{
+  color: brown;
+  text-decoration: none;
 }
 
 .flex-container{
   width: 100%;
-  height: 600px;
+  height: 300px;
+  gap: 30px;
+  margin-top: 20px;
 }
 
 .flex-container .flex-item{
   width: 30%;
-  height: 50%;
+  height: 70%;
 }
 
 .flex-container .flex-item img{
   width: 100%;
-  height: 50%;
+  height: 80%;
 }
 
 .flex-item{
   height: 100%;
+  font-size: 15px !important;
 }
 
 .caja{
  font-size: 15px;
- height: 300px;
- border: ;
-
+ width: 100%;
+ font-size: 18px;
 }
 
 .caja img{
- height: 50%;
-  
+  width: 100%;
 }
-
 
 }
 
