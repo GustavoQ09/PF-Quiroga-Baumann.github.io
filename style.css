@@ -188,7 +188,7 @@ section{
 
 .caja img {
   max-width: 100%;
-  height: 50%;
+  height: auto;
 }
 
 .menu-hamburguesa {
@@ -293,6 +293,7 @@ iframe{
 
 .caja img{
   width: 100%;
+  height: 200px;
 }
 
 }
