@@ -1,3 +1,4 @@
+
 body {
   background-color: antiquewhite;
 }
@@ -212,8 +213,8 @@ section{
 }
 
 .caja img {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  height: 100%;
 }
 
 .h1-preguntas {
@@ -300,19 +301,19 @@ iframe{
 
 .flex-container{
   width: 100%;
-  height: 400px;
+  height: 250px;
   gap: 10px;
-  padding: 0px; 
+  padding: 10px;
 }
 
 .flex-container .flex-item{
   width: 50%;
-  height: 70%;
+  height: 100%;
 }
 
 .flex-container .flex-item img{
   width: 100%;
-  height: 80%;
+  height: 60%;
 }
 
 .caja{
