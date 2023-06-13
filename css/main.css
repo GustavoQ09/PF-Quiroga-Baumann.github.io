@@ -1,10 +1,10 @@
-
+@charset "UTF-8";
 body {
   background-color: antiquewhite;
 }
 
 .dirección {
-  font-size: 14px;
+  font-size: 18px;
   text-align: center;
   padding: 0px;
 }
@@ -28,7 +28,7 @@ nav {
   border: rgb(144, 86, 86);
   border-bottom: 1px solid #ccc;
   border-style: solid;
-  background-image: url(./IMG/img-sueltas/rustic-vintage-wooden-boards-on-260nw-1940804920.png);
+  background-image: url(/PROYECTO/mi-repositorio/IMG/img-sueltas/rustic-vintage-wooden-boards-on-260nw-1940804920.png);
   background-size: 150% 300%;
   height: 200px;
   width: 100%;
@@ -60,8 +60,8 @@ nav {
   text-decoration: none;
 }
 
-.boton-nav:hover{
-background-color: #b99257;
+.boton-nav:hover {
+  background-color: #b99257;
 }
 
 .img-producto {
@@ -73,7 +73,7 @@ background-color: #b99257;
   display: flex;
 }
 
-.imagen-empresa{
+.imagen-empresa {
   width: 700px;
   margin-left: 20px;
 }
@@ -101,18 +101,18 @@ iframe {
   margin: 0px;
 }
 
-.icono{
-  margin-right:10px ;
-  margin-left:10px ;
+.icono {
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
-.centrar{
-margin-top: 40px;
-text-align: center;
+.centrar {
+  margin-top: 40px;
+  text-align: center;
 }
 
 .titulo-productos {
-  color: brown ;
+  color: brown;
   font-size: 30px;
   padding: 10px;
   text-align: center;
@@ -127,10 +127,9 @@ text-align: center;
   display: flex;
   gap: 50px;
   justify-content: space-evenly;
-  
 }
 
-.flex-container .flex-item{
+.flex-container .flex-item {
   border: 2px solid #e0df8c;
   background-color: #b99257;
   color: white;
@@ -141,12 +140,12 @@ text-align: center;
   font-size: 25px;
 }
 
-.flex-container .flex-item img{
+.flex-container .flex-item img {
   width: 100%;
   height: 80%;
 }
 
-section{
+section {
   text-align: center;
 }
 
@@ -174,19 +173,19 @@ section{
 }
 
 #carouselExampleFade {
-  margin-top: 20px; 
+  margin-top: 20px;
 }
 
-.img-fluid{
+.img-fluid {
   width: 70%;
   margin-left: 15%;
   margin-right: 15%;
-  height: 600px ;
+  height: 600px;
 }
 
 .grid-layout {
   display: grid;
-  grid-template-columns: 30%  auto ;
+  grid-template-columns: 30% auto;
   grid-template-rows: 400px 400px 400px;
   width: 100%;
   margin: 0 auto;
@@ -196,7 +195,7 @@ section{
   gap: 5px;
 }
 
-.col-md-8{
+.col-md-8 {
   border: solid brown;
   padding: 0;
 }
@@ -231,100 +230,84 @@ section{
   height: auto;
 }
 
-
 @media (max-width: 768px) {
-.menu-hamburguesa {display: block;}
-
-.nav-bar-index {display: none;}
-
-
-.foto-empresa{
-  display: inline;
+  .menu-hamburguesa {
+    display: block;
+  }
+  .nav-bar-index {
+    display: none;
+  }
+  .foto-empresa {
+    display: inline;
+  }
+  .empresa-parrafo {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    font-size: 20px;
+  }
+  .h2-empresa {
+    text-align: center;
+  }
+  .imagen-empresa {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+  }
+  .video {
+    display: inline;
+  }
+  iframe {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .texto-video {
+    font-size: 20px;
+    width: 80%;
+    text-align: center;
+    justify-content: flex-start;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+  }
+  .img-fluid {
+    height: 400px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .li-hamburguesa {
+    font-size: 23px;
+    list-style: none;
+    display: inline;
+  }
+  .boton-menu-hamburguesa {
+    color: brown;
+    text-decoration: none;
+  }
+  .flex-container {
+    width: 100%;
+    height: 250px;
+    gap: 10px;
+    padding: 10px;
+  }
+  .flex-container .flex-item {
+    width: 50%;
+    height: 100%;
+  }
+  .flex-container .flex-item img {
+    width: 100%;
+    height: 60%;
+  }
+  .caja {
+    width: 100%;
+    font-size: 18px;
+  }
+  .caja img {
+    width: 100%;
+    height: 200px;
+  }
 }
-
-.empresa-parrafo {
-width: 80%;
-margin-left: 10%;
-margin-right: 10%;
-margin-top: 30px;
-font-size: 20px
-}
-
-.h2-empresa{
-  text-align: center;
-}
-
-.imagen-empresa{
-  width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 50px;
-}
-
-.video {
-  display:inline;
-}
-
-iframe{
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-.texto-video{
-  font-size: 20px;
-  width: 80%;
-  text-align: center;
-  justify-content:flex-start;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 20px;
-}
-
-.img-fluid {
-  height: 400px;
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-.li-hamburguesa {
- font-size: 23px;
- list-style: none;
- display: inline;
-}
-
-.boton-menu-hamburguesa{
-  color: brown;
-  text-decoration: none;
-}
-
-.flex-container{
-  width: 100%;
-  height: 250px;
-  gap: 10px;
-  padding: 10px;
-}
-
-.flex-container .flex-item{
-  width: 50%;
-  height: 100%;
-}
-
-.flex-container .flex-item img{
-  width: 100%;
-  height: 60%;
-}
-
-.caja{
- width: 100%;
- font-size: 18px;
-}
-
-.caja img{
-  width: 100%;
-  height: 200px;
-}
-
-}
-
