@@ -1,0 +1,34 @@
+ .titulo-productos {
+    color: brown;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    margin: 0px;
+   
+}
+
+.flex-container {
+    background-color: rgb(219, 193, 141);
+    height: 400px;
+    padding: 50px;
+    display: flex;
+    gap: 50px;
+    justify-content: space-evenly;
+
+    & .flex-item {
+        border: 2px solid brown;
+        background-color: #b99257;
+        color: brown;
+        width: 300px;
+        height: auto;
+        padding: 5px;
+        text-align: center;
+        font-size: 25px;
+
+        & img {
+            width: 100%;
+            height: 80%;
+          }
+      }
+  }
+  

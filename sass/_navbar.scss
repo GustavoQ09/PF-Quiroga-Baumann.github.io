@@ -1,0 +1,53 @@
+.bg-nav{
+    border-radius: 10px;
+    border: rgb(144, 86, 86);
+    border-bottom: 1px solid #ccc;
+    border-style: solid;
+    background-image: url(/PROYECTO/mi-repositorio/IMG/img-sueltas/rustic-vintage-wooden-boards-on-260nw-1940804920.png);
+    background-size: 150% 300%;
+    height: 200px;
+    width: 100%;
+    top: 1;
+    background-color: #fff;
+    display: flex;
+    font-size: 30px;
+     
+    
+      .logo-título{
+        margin-top: 25px;
+        display: inline-block;
+
+       .imagen-logo{
+            width: 200px;
+            height: auto;         
+            
+            
+        }
+    }
+}
+
+.nav-bar-index {
+    width: 80%;
+    margin-left: 350px;
+    margin-top: 80px;
+
+    .lista-navbar{
+        color: rgb(233, 233, 220);
+        list-style: none;
+
+        .boton-nav{
+            background-color: rgba(0, 0, 0, 0.402);
+            color: rgb(233, 233, 220);
+            padding: 8px;
+            text-decoration: none;
+
+            &:hover {
+                background-color: #b99257;
+            }
+        }
+    }
+}
+
+.menu-hamburguesa {
+    display: none;
+  }

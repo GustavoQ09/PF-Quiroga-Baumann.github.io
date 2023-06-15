@@ -1,234 +1,13 @@
-body {
-    background-color: antiquewhite;
-  }
-  
-  .dirección {
-    font-size: 18px;
-    text-align: center;
-    padding: 0px;
-  }
-  
-  .logo-título {
-    margin-top: 25px;
-    display: inline-block;
-  }
-  
-  h1 {
-    text-align: center;
-    color: rgb(233, 233, 220);
-  }
-  
-  nav {
-    font-size: 30px;
-  }
-  
-  .bg-nav {
-    border-radius: 10px;
-    border: rgb(144, 86, 86);
-    border-bottom: 1px solid #ccc;
-    border-style: solid;
-    background-image: url(/PROYECTO/mi-repositorio/IMG/img-sueltas/rustic-vintage-wooden-boards-on-260nw-1940804920.png);
-    background-size: 150% 300%;
-    height: 200px;
-    width: 100%;
-    top: 1;
-    background-color: #fff;
-    display: flex;
-  }
-  
-  .m-titulo {
-    margin-top: 50px;
-    width: 25%;
-  }
-  
-  .nav-bar-index {
-    width: 80%;
-    margin-left: 350px;
-    margin-top: 80px;
-  }
-  
-  .lista-navbar {
-    color: rgb(233, 233, 220);
-    list-style: none;
-  }
-  
-  .boton-nav {
-    background-color: rgba(0, 0, 0, 0.402);
-    color: rgb(233, 233, 220);
-    padding: 8px;
-    text-decoration: none;
-  }
-  
-  .boton-nav:hover {
-    background-color: #b99257;
-  }
-  
-  .img-producto {
-    margin-top: 40px;
-  }
-  
-  .foto-empresa {
-    margin-top: 50px;
-    display: flex;
-  }
-  
-  .imagen-empresa {
-    width: 700px;
-    margin-left: 20px;
-  }
-  
-  .empresa-parrafo {
-    margin-left: 50px;
-    margin-top: -10px;
-    font-size: 30px;
-  }
-  
-  .video {
-    display: flex;
-    margin-top: 40px;
-  }
-  
-  iframe {
-    margin-left: 50px;
-    display: flex;
-  }
-  
-  .texto-video {
-    font-size: 30px;
-    width: 50%;
-    text-align: right;
-    margin: 0px;
-  }
-  
-  .icono {
-    margin-right: 10px;
-    margin-left: 10px;
-  }
-  
-  .centrar {
-    margin-top: 40px;
-    text-align: center;
-  }
-  
-  .titulo-productos {
-    color: brown;
-    font-size: 30px;
-    padding: 10px;
-    text-align: center;
-    margin: 0px;
-  }
-  
-  .flex-container {
-    margin-top: 10px;
-    background-color: rgb(219, 193, 141);
-    height: 400px;
-    padding: 50px;
-    display: flex;
-    gap: 50px;
-    justify-content: space-evenly;
-  }
-  
-  .flex-container .flex-item {
-    border: 2px solid #e0df8c;
-    background-color: #b99257;
-    color: white;
-    width: 300px;
-    height: auto;
-    padding: 5px;
-    text-align: center;
-    font-size: 25px;
-  }
-  
-  .flex-container .flex-item img {
-    width: 100%;
-    height: 80%;
-  }
-  
-  section {
-    text-align: center;
-  }
-  
-  .container-chat {
-    margin-top: 50px;
-  }
-  
-  .chat-box {
-    height: 200px;
-    overflow-y: scroll;
-  }
-  
-  .message {
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-  }
-  
-  .message.sender {
-    background-color: #e6f2ff;
-  }
-  
-  .message.receiver {
-    background-color: #f7f7f7;
-  }
-  
-  #carouselExampleFade {
-    margin-top: 20px;
-  }
-  
-  .img-fluid {
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
-    height: 600px;
-  }
-  
-  .grid-layout {
-    display: grid;
-    grid-template-columns: 30% auto;
-    grid-template-rows: 400px 400px 400px;
-    width: 100%;
-    margin: 0 auto;
-    background-color: antiquewhite;
-    padding: 20px;
-    border: 1px solid black;
-    gap: 5px;
-  }
-  
-  .col-md-8 {
-    border: solid brown;
-    padding: 0;
-  }
-  
-  .h1-consulta {
-    font-size: 30px;
-    color: brown;
-    margin-top: 10px;
-  }
-  
-  .caja {
-    border-style: double;
-    font-size: 29px;
-  }
-  
-  .caja img {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .h1-preguntas {
-    color: brown;
-    margin-top: 10px;
-  }
-  
-  .menu-hamburguesa {
-    display: none;
-  }
-  
-  .img-redes {
-    width: 50px;
-    height: auto;
-  }
-  
+@import 'navbar';
+@import 'productos';
+@import 'equipo';
+@import 'contacto';
+@import 'iconos-redes';
+@import 'general-partial';
+@import 'index';
+
+
+
   @media (max-width: 768px) {
     .menu-hamburguesa {
       display: block;
@@ -237,7 +16,7 @@ body {
     .nav-bar-index {
       display: none;
     }
-  
+
     .foto-empresa {
       display: inline;
     }
@@ -269,16 +48,17 @@ body {
       width: 80%;
       margin-left: 10%;
       margin-right: 10%;
+      height: 400px;
     }
   
-    .texto-video {
-      font-size: 20px;
+   .video .texto-video {
+      font-size: 10px;
       width: 80%;
       text-align: center;
       justify-content: flex-start;
       margin-left: 10%;
       margin-right: 10%;
-      margin-top: 20px;
+      font-size: 20px;
     }
   
     .img-fluid {
@@ -298,6 +78,13 @@ body {
       color: brown;
       text-decoration: none;
     }
+
+      #carouselExampleFade .img-fluid {
+          width: 70%;
+          margin-left: 15%;
+          margin-right: 15%;
+          height: 400px;   
+       }
   
     .flex-container {
       width: 100%;
@@ -316,14 +103,27 @@ body {
       height: 60%;
     }
   
-    .caja {
+    .grid-layout{
+      display: inline;
+      
+    }
+
+    .grid-layout .caja {
       width: 100%;
-      font-size: 18px;
+      font-size: 19px;
+      border: none;
+      padding: 10px;
+    }
+
+    .grid-layout .caja h2 {
+      text-align: center;
     }
   
-    .caja img {
-      width: 100%;
+    .grid-layout .caja img {
+      width: 80%;
       height: 200px;
+      margin-left:10% ;
+      border: solid brown;
     }
     
   }

@@ -1,0 +1,45 @@
+.container-chat {
+    margin-top: 50px;
+    
+    .col-md-8 {
+        border: solid brown;
+        padding: 0;
+      
+  
+        .chat-box {
+        height: 200px;
+        overflow-y: scroll;
+       
+         .message {
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+           
+            .message.sender {
+                background-color: #e6f2ff;
+               
+                .message.receiver {
+                    background-color: #f7f7f7;
+
+                     }
+                  }
+              }
+          }
+      }
+  }
+
+
+  section{
+    text-align: center;
+ 
+    .h1-consulta {
+        font-size: 30px;
+        color: brown;
+        margin-top: 50px;
+
+        .box-contacto {
+             margin-top: 100px;
+  
+         }
+      }
+  }
