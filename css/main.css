@@ -82,19 +82,20 @@
   grid-template-rows: 400px 400px 400px;
   width: 100%;
   margin: 0 auto;
-  background-color: antiquewhite;
   padding: 20px;
   gap: 15px;
 }
 .grid-layout .caja {
   border: solid rgb(163, 122, 68);
   font-size: 29px;
+  background: linear-gradient(25deg, brown, #b99257, white);
 }
 .grid-layout .caja img {
   width: 100%;
   height: 100%;
 }
 
+/* CHAT BOX */
 .container-chat {
   margin-top: 50px;
 }
@@ -118,16 +119,29 @@
   background-color: #f7f7f7;
 }
 
+/* BOX DE CONSULTAS */
 section {
   text-align: center;
+}
+section .enviar-consulta {
+  background-color: brown;
+  opacity: 0.5;
+}
+section .enviar-consulta:hover {
+  background-color: brown;
+  opacity: 1;
+}
+section .enviar-consulta:focus {
+  width: 200px;
+  height: 50px;
 }
 section .h1-consulta {
   font-size: 30px;
   color: brown;
   margin-top: 50px;
 }
-section .h1-consulta .box-contacto {
-  margin-top: 100px;
+section .h1-consulta .enviar-consulta {
+  background-color: brown;
 }
 
 .centrar {
@@ -145,6 +159,7 @@ section .h1-consulta .box-contacto {
 
 body {
   background-color: antiquewhite;
+  /* Dirección del local */
 }
 body .dirección {
   font-size: 16px;
@@ -153,6 +168,7 @@ body .dirección {
   color: brown;
 }
 
+/* Título logo */
 .m-titulo {
   margin-top: 50px;
   width: 25%;
