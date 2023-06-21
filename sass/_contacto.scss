@@ -1,62 +1,58 @@
 /* CHAT BOX */
 .container-chat {
-    margin-top: 50px;
-    
-    .col-md-8 {
-        border: solid brown;
-        padding: 0;
-      
-  
-        .chat-box {
-        height: 200px;
-        overflow-y: scroll;
-       
-         .message {
-            padding: 10px;
-            margin-bottom: 10px;
-            border-radius: 5px;
-           
-            .message.sender {
-                background-color: #e6f2ff;
-               
-                .message.receiver {
-                    background-color: #f7f7f7;
+  margin-top: 50px;
 
-                     }
-                  }
-              }
+  .col-md-8 {
+    border: solid brown;
+    padding: 0;
+
+    .chat-box {
+      height: 200px;
+      overflow-y: scroll;
+
+      .message {
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+
+        .message.sender {
+          background-color: #e6f2ff;
+
+          .message.receiver {
+            background-color: #f7f7f7;
           }
+        }
       }
+    }
   }
+}
 
 /* BOX DE CONSULTAS */
-  section{
-    text-align: center; 
- 
-    .enviar-consulta{
-        background-color: brown;
-        opacity: 0.50;
+section {
+  text-align: center;
+
+  .enviar-consulta {
+    background-color: brown;
+    opacity: 0.5;
+  }
+
+  .enviar-consulta:hover {
+    background-color: brown;
+    opacity: 1;
+  }
+
+  .enviar-consulta:focus {
+    width: 200px;
+    height: 50px;
+  }
+
+  .h1-consulta {
+    font-size: 30px;
+    color: brown;
+    margin-top: 50px;
+
+    .enviar-consulta {
+      background-color: brown;
     }
-
-    .enviar-consulta:hover {
-        background-color: brown;
-        opacity: 1;
-    }
-
-    .enviar-consulta:focus {
-        width: 200px;
-        height: 50px;
-    }
-
-    .h1-consulta {
-        font-size: 30px;
-        color: brown;
-        margin-top: 50px;
-
-        .enviar-consulta{
-            background-color: brown;
-
-                }
-            }
-        }  
-    
+  }
+}

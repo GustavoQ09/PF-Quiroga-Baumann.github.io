@@ -1,35 +1,32 @@
 .foto-empresa {
-    margin-top: 50px;
-    display: flex;
+  margin-top: 50px;
+  display: flex;
 
-    .imagen-empresa {
-        width: 700px;
-        margin-left: 20px;
-    }
+  .imagen-empresa {
+    width: 700px;
+    margin-left: 20px;
+  }
 }
-      
+
 .empresa-parrafo {
-    margin-left: 50px;
-    margin-top: -10px;
+  margin-left: 50px;
+  margin-top: -10px;
+  font-size: 30px;
+}
+
+.video {
+  display: flex;
+  margin-top: 40px;
+
+  & .texto-video {
     font-size: 30px;
-             }
-                
-      
-  
+    width: 50%;
+    text-align: right;
+    margin: 0px;
+  }
+}
 
-  .video {
-    display: flex;
-    margin-top: 40px;
-
-       & .texto-video {
-            font-size: 30px;
-            width: 50%;
-            text-align: right;
-            margin: 0px        
-          }
-      }
-
-      iframe {
-        margin-left: 50px;
-        display: flex;
-     }
+iframe {
+  margin-left: 50px;
+  display: flex;
+}

@@ -1,133 +1,119 @@
 @media (max-width: 768px) {
+  .menu-hamburguesa {
+    display: block;
+  }
 
-    .menu-hamburguesa {
-        display: block;
+  .li-hamburguesa {
+    font-size: 23px;
+    list-style: none;
+    display: inline;
+
+    .boton-menu-hamburguesa {
+      color: brown;
+      text-decoration: none;
+      border: brown;
+      border: ridge;
+      gap: 10px;
+    }
+  }
+
+  #carouselExampleFade {
+    height: 400px;
+    margin-top: 30px;
+
+    .img-fluid {
+      height: 300px;
+      width: 70%;
+      margin-left: 15%;
+      margin-right: 15%;
+    }
+  }
+
+  .nav-bar-index {
+    display: none;
+  }
+
+  .foto-empresa {
+    display: inline;
+
+    .imagen-empresa {
+      width: 80%;
+      margin-left: 10%;
+      margin-right: 10%;
     }
 
-    .li-hamburguesa {
-        font-size: 23px;
-        list-style: none;
-        display: inline;
+    .empresa-parrafo {
+      width: 80%;
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-top: 30px;
+      font-size: 20px;
 
-        .boton-menu-hamburguesa {
-            color: brown;
-            text-decoration: none;
-            border: brown;
-            border: ridge;
-            gap: 10px;
-        }
-
+      .h2-empresa {
+        text-align: center;
+        color: brown;
+      }
     }
+  }
 
-    #carouselExampleFade {
-        height: 400px;
-        margin-top: 30px;
+  .video {
+    display: inline;
 
-        .img-fluid {
-            height: 300px;
-            width: 70%;
-            margin-left: 15%;
-            margin-right: 15%;
-
-        }
+    & .texto-video {
+      width: 80%;
+      text-align: center;
+      justify-content: flex-start;
+      margin-left: 10%;
+      margin-right: 10%;
+      font-size: 20px;
     }
+  }
 
+  iframe {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    height: 400px;
+  }
 
-    .nav-bar-index {
-        display: none;
-    }
+  .flex-container {
+    width: 100%;
+    height: 250px;
+    gap: 10px;
+    padding: 10px;
 
+    & .flex-item {
+      width: 50%;
+      height: 100%;
 
-    .foto-empresa {
-        display: inline;
-
-        .imagen-empresa {
-            width: 80%;
-            margin-left: 10%;
-            margin-right: 10%;
-        }
-
-        .empresa-parrafo {
-            width: 80%;
-            margin-left: 10%;
-            margin-right: 10%;
-            margin-top: 30px;
-            font-size: 20px;
-
-            .h2-empresa {
-                text-align: center;
-                color: brown;
-            }
-
-        }
-    }
-
-
-    .video {
-        display: inline;
-
-
-        & .texto-video {
-            width: 80%;
-            text-align: center;
-            justify-content: flex-start;
-            margin-left: 10%;
-            margin-right: 10%;
-            font-size: 20px;
-        }
-    }
-
-
-    iframe {
-        width: 80%;
-        margin-left: 10%;
-        margin-right: 10%;
-        margin-top: 20px;
-        height: 400px;
-    }
-
-
-    .flex-container {
+      & img {
         width: 100%;
+        height: 60%;
+      }
+    }
+  }
+
+  .grid-layout {
+    display: inline;
+
+    & .caja {
+      width: 100%;
+      font-size: 19px;
+      border: none;
+      padding: 10px;
+
+      & h2 {
+        text-align: center;
+      }
+
+      & img {
+        width: 70%;
         height: 250px;
-        gap: 10px;
-        padding: 10px;
-
-        & .flex-item {
-            width: 50%;
-            height: 100%;
-
-            & img {
-                width: 100%;
-                height: 60%;
-
-            }
-        }
+        margin-left: 15%;
+        margin-right: 15%;
+        border: solid brown;
+      }
     }
-
-
-    .grid-layout {
-        display: inline;
-
-        & .caja {
-            width: 100%;
-            font-size: 19px;
-            border: none;
-            padding: 10px;
-
-            & h2 {
-                text-align: center;
-            }
-
-            & img {
-                width: 70%;
-                height: 250px;
-                margin-left: 15%;
-                margin-right: 15%;
-                border: solid brown;
-            }
-
-        }
-
-    }
+  }
 }
