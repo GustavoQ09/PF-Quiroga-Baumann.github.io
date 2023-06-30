@@ -116,4 +116,129 @@
       }
     }
   }
+
+  /* BOX DE CONSULTAS */
+  section {
+    text-align: center;
+
+    textarea {
+      width: 90%;
+      border: 2px solid brown;
+    }
+  }
+
+  /* CONTACTO CHAT BOX */
+
+  .container-chat {
+    margin-top: 50px;
+
+    .col-md-8 {
+      border: solid brown;
+      padding: 0;
+      width: 90%;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  }
+}
+
+@media (max-width: 414px) {
+  .li-hamburguesa {
+    font-size: 20px;
+    list-style: none;
+    display: inline;
+
+    .boton-menu-hamburguesa {
+      color: brown;
+      text-decoration: none;
+      border: brown;
+      border: ridge;
+      gap: 10px;
+    }
+  }
+  /* PRODUCTOS */
+  .flex-container {
+    width: 100%;
+    height: 200px;
+    gap: 10px;
+    padding: 10px;
+
+    & .flex-item {
+      width: 50%;
+      height: 100%;
+      font-size: 15px;
+
+      & img {
+        width: 100%;
+        height: 60%;
+      }
+    }
+  }
+  /* CONTACTO CHAT BOX */
+
+  .container-chat {
+    margin-top: 50px;
+
+    .col-md-8 {
+      border: solid brown;
+      padding: 0;
+      width: 90%;
+      margin-left: 5%;
+      margin-right: 5%;
+
+      .chat-box {
+        height: 200px;
+        overflow-y: scroll;
+
+        .message {
+          padding: 10px;
+          margin-bottom: 10px;
+          border-radius: 5px;
+
+          .message.sender {
+            background-color: #e6f2ff;
+
+            .message.receiver {
+              background-color: #f7f7f7;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* BOX DE CONSULTAS */
+  section {
+    text-align: center;
+
+    textarea {
+      width: 90%;
+      border: 2px solid brown;
+
+      .enviar-consulta {
+        background-color: brown;
+        opacity: 0.5;
+      }
+
+      .enviar-consulta:hover {
+        background-color: brown;
+        opacity: 1;
+      }
+
+      .enviar-consulta:focus {
+        width: 200px;
+        height: 50px;
+      }
+
+      .h1-consulta {
+        font-size: 30px;
+        color: brown;
+        margin-top: 50px;
+
+        .enviar-consulta {
+          background-color: brown;
+        }
+      }
+    }
+  }
 }
