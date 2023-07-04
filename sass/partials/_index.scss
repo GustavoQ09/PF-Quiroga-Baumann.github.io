@@ -3,17 +3,22 @@
   display: flex;
 
   .imagen-empresa {
-    width: 700px;
+    width: 800px;
+    height: 500px;
     margin-left: 20px;
   }
 }
-
 .empresa-parrafo {
   margin-left: 50px;
-  margin-top: -10px;
+  margin-right: 10px;
   font-size: 30px;
+  text-align: start;
+  .h2-empresa {
+    text-align: center;
+    color: brown;
+    font-size: 35px;
+  }
 }
-
 .video {
   display: flex;
   margin-top: 40px;
@@ -27,6 +32,9 @@
 }
 
 iframe {
+  width: 900px;
   margin-left: 50px;
+  margin-right: 20px;
   display: flex;
+  text-align: start;
 }

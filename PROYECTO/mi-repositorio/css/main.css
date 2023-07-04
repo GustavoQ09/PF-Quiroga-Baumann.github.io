@@ -195,21 +195,15 @@ h1 {
   display: flex;
 }
 .foto-empresa .imagen-empresa {
-  width: 800px;
-  height: 500px;
+  width: 700px;
   margin-left: 20px;
 }
 
 .empresa-parrafo {
   margin-left: 50px;
-  margin-right: 10px;
+  margin-top: -10px;
   font-size: 30px;
-  text-align: start;
-}
-.empresa-parrafo .h2-empresa {
   text-align: center;
-  color: brown;
-  font-size: 35px;
 }
 
 .video {
@@ -224,11 +218,8 @@ h1 {
 }
 
 iframe {
-  width: 900px;
   margin-left: 50px;
-  margin-right: 20px;
   display: flex;
-  text-align: start;
 }
 
 @media (min-width: 414px) and (max-width: 768px) {
@@ -410,7 +401,7 @@ iframe {
     background-color: brown;
   }
 }
-@media (min-width: 769px) and (max-width: 1919px) {
+@media (min-width: 769px) {
   .menu-hamburguesa {
     display: block;
   }
@@ -469,6 +460,7 @@ iframe {
     display: inline;
   }
   .video .texto-video {
+    width: 80%;
     text-align: center;
     justify-content: flex-start;
     margin-left: 10%;
@@ -483,22 +475,21 @@ iframe {
     height: 500px;
   }
   .grid-layout {
-    display: grid;
-    grid-template-columns: 30% auto;
-    grid-template-rows: 400px 400px 400px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 20px;
-    gap: 15px;
+    display: inline;
   }
   .grid-layout.caja {
-    border: solid rgb(163, 122, 68);
-    font-size: 20px;
-    background: linear-gradient(590deg, brown, #b99257, white);
+    width: 100%;
+    font-size: 10px;
+    border: none;
+    padding: 10px;
+  }
+  .grid-layout.caja h2 {
+    text-align: center;
   }
   .grid-layout.caja img {
     width: 100%;
     height: 100%;
+    border: solid brown;
   }
   .titulo-productos {
     color: brown;
@@ -512,10 +503,10 @@ iframe {
     height: 400px;
     padding: 50px;
     display: flex;
-    gap: 50px;
+    gap: 20px;
     justify-content: space-evenly;
   }
-  .flex-container.flex-item {
+  .flex-container .flex-item {
     border: 2px solid brown;
     background-color: #b99257;
     color: brown;
@@ -525,7 +516,7 @@ iframe {
     text-align: center;
     font-size: 20px;
   }
-  .flex-container.flex-item img {
+  .flex-container .flex-item img {
     width: 100%;
     height: 70%;
   }
@@ -551,7 +542,30 @@ iframe {
   /* CHAT BOX */
   /* BOX DE CONSULTAS */
 }
-@media (min-width: 769px) and (max-width: 1919px) and (min-width: 1920px) {
+@media (min-width: 769px) and (min-width: 1024px) {
+  .menu-hamburguesa {
+    display: none;
+  }
+  .nav-bar-index {
+    width: 80%;
+    margin-left: 350px;
+    margin-top: 80px;
+  }
+  .nav-bar-index .lista-navbar {
+    color: rgb(233, 233, 220);
+    list-style: none;
+  }
+  .nav-bar-index .lista-navbar .boton-nav {
+    background-color: rgba(0, 0, 0, 0.402);
+    color: rgb(233, 233, 220);
+    padding: 8px;
+    text-decoration: none;
+  }
+  .nav-bar-index .lista-navbar .boton-nav:hover {
+    background-color: #b99257;
+  }
+}
+@media (min-width: 769px) and (max-width: 1920px) {
   .bg-nav {
     border-radius: 10px;
     border: rgb(144, 86, 86);
@@ -597,7 +611,7 @@ iframe {
     display: none;
   }
   #carouselExampleFade {
-    margin-top: 40px;
+    margin-top: 20px;
   }
   #carouselExampleFade .img-fluid {
     width: 60%;
@@ -607,35 +621,36 @@ iframe {
     border: solid brown;
   }
   .foto-empresa {
-    margin-top: 100px;
+    margin-top: 150px;
     display: flex;
   }
   .foto-empresa .imagen-empresa {
-    width: 1000px;
-    height: 500px;
-    margin-top: 62px;
+    width: 800px;
+    height: 400px;
     margin-left: 20px;
     margin-right: 0px;
+  }
+  .empresa-parrafo .h2-empresa p {
+    display: flex;
   }
   .video {
     display: flex;
     margin-top: 100px;
   }
   .video .texto-video {
-    font-size: 30px;
-    text-align: start;
-    margin: 0;
-    margin-left: 30px;
-    margin-right: 30px;
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
   }
-  .video iframe {
-    height: 600px;
-    width: 50%;
-    margin: 0;
-    margin-right: 20px;
+  .video .texto-video iframe {
+    margin-left: 500px;
+    width: 900px;
+    height: 700px;
+    display: flex;
   }
 }
-@media (min-width: 769px) and (max-width: 1919px) {
+@media (min-width: 769px) {
   .grid-layout {
     display: grid;
     grid-template-columns: 30% auto;
@@ -645,17 +660,17 @@ iframe {
     padding: 20px;
     gap: 15px;
   }
-  .grid-layout.caja {
+  .grid-layout .caja {
     border: solid rgb(163, 122, 68);
     font-size: 29px;
     background: linear-gradient(590deg, brown, #b99257, white);
   }
-  .grid-layout.caja img {
+  .grid-layout .caja img {
     width: 100%;
     height: 100%;
   }
 }
-@media (min-width: 769px) and (max-width: 1919px) {
+@media (min-width: 769px) {
   .titulo-productos {
     color: brown;
     font-size: 30px;
@@ -664,7 +679,7 @@ iframe {
     margin: 0px;
   }
 }
-@media (min-width: 769px) and (max-width: 1919px) {
+@media (min-width: 769px) {
   .flex-container {
     background-color: rgb(219, 193, 141);
     height: 400px;
@@ -688,7 +703,7 @@ iframe {
     height: 80%;
   }
 }
-@media (min-width: 769px) and (max-width: 1919px) {
+@media (min-width: 769px) {
   .container-chat {
     margin-top: 50px;
   }
@@ -712,7 +727,7 @@ iframe {
     background-color: #f7f7f7;
   }
 }
-@media (min-width: 769px) and (max-width: 1919px) {
+@media (min-width: 769px) {
   section {
     text-align: center;
   }
