@@ -1,20 +1,63 @@
 .grid-layout {
-  display: grid;
-  grid-template-columns: 30% auto;
-  grid-template-rows: 400px 400px 400px;
   width: 100%;
-  margin: 0 auto;
-  padding: 20px;
-  gap: 15px;
-
-  &.caja {
-    border: solid rgb(163, 122, 68);
-    font-size: 29px;
-    background: linear-gradient(590deg, brown, #b99257, white);
-
-    & img {
+  & h2 {
+    font-size: 20px;
+    color: brown;
+  }
+  & .caja {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 15px;
+    align-items: center;
+    padding: 10px;
+  }
+  & .imagen {
+    width: 80%;
+  }
+}
+@media (min-width: 1024px) {
+  .grid-layout {
+    display: flex;
+    padding: 0px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    padding: 0;
+    & .container {
+      max-width: 100%;
+      display: flex;
+      margin: 10px;
       width: 100%;
-      height: 100%;
+      padding: 0;
+      & h2 {
+        font-size: 25px;
+      }
+      & .caja {
+        width: 50%;
+
+        font-size: 16px;
+        background: linear-gradient(590deg, brown, #b99257, white);
+        & .imagen {
+          width: 100%;
+          background: none;
+          padding: 0;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1920px) {
+  .grid-layout {
+    & .container {
+      max-width: 100%;
+      & h2 {
+        font-size: 35px;
+      }
+      & .caja {
+        font-size: 31px;
+        margin: 1px;
+      }
     }
   }
 }
