@@ -148,7 +148,7 @@
   .grid-layout .container .caja {
     width: 50%;
     font-size: 16px;
-    background: linear-gradient(590deg, brown, #b99257, white);
+    background: linear-gradient(550deg, white, #b99257);
   }
   .grid-layout .container .caja .imagen {
     width: 100%;
@@ -158,14 +158,20 @@
 }
 @media (min-width: 1920px) {
   .grid-layout .container {
+    height: 400px;
     max-width: 100%;
   }
   .grid-layout .container h2 {
-    font-size: 35px;
+    font-size: 30px;
   }
   .grid-layout .container .caja {
-    font-size: 31px;
+    background: linear-gradient(550deg, white, #b99257);
+    font-size: 24px;
     margin: 1px;
+  }
+  .grid-layout .container .caja .imagen {
+    width: 80%;
+    height: 100%;
   }
 }
 /* CHAT BOX */
